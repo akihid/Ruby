@@ -19,7 +19,7 @@ end
 class Enemy
   def hand
     # グー、チョキ、パーの値をランダムに出力するメソッドの処理をこの中に作成する
-    @hand = rand(2)
+    @hand = rand(3)
   end
 end
 
