@@ -1,10 +1,9 @@
 class Player
   def hand
     # コンソールを入力待ち状態にし、プレイヤーがコンソールから打ち込んだ値を出力する処理のメソッドの処理をこの中に作成する
-    puts "数字を入力してください。\n0: グー\n1: チョキ\n2:  パー"
-
     # === START 暫定的にここでやる ===
     while true do
+      puts "数字を入力してください。\n0: グー\n1: チョキ\n2:  パー"
       player_hand = gets.chomp
       # 0,1,2ならループから抜ける
       if (player_hand == "0" || player_hand == "1" || player_hand == "2")
